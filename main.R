@@ -6,13 +6,13 @@ if (!requireNamespace("showtext", quietly = TRUE)) install.packages("showtext")
 library(showtext)
 
 # Load the Quicksand fonts
-font_add_google("Quicksand", "quicksand")
+font_add_google("EB Garamond", "ebgaramond")
 
 # Enable showtext for font rendering
 showtext_auto()
 
 # global settings:
-par(family = "quicksand")
+par(family = "ebgaramond")
 
 # gather data
 responses <- read.csv("responses.csv")
