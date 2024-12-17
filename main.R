@@ -21,7 +21,7 @@ responses <- read.csv("responses.csv")
 singleVarStats <- list(responses$In.terms.of.quality..how.would.you.rate.new.media.of.this.type.nowadays.,
                     responses$In.terms.of.originality..how.would.you.rate.new.media.of.this.type.nowadays.,
                     responses$How.do.you.feel.this.media.type.has.been.doing.compared.to.in.the.past.)
-singleVarStatsNames <- c("Perception of Media's Quality", "Perception of Media's Originality", "Perception of Media's Improvement")
+singleVarStatsNames <- c("Perception of Media's Quality", "Perception of Media's Originality", "Perception of Media Industry's Improvement")
 
 # create charts
 boxplot(singleVarStats,
